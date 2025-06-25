@@ -1,5 +1,5 @@
 ---
-# Source: user-template/templates/group.yaml
+# Source: Workshop-instances/templates/group.yaml
 kind: Group
 apiVersion: user.openshift.io/v1
 metadata:

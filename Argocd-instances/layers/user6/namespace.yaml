@@ -1,5 +1,5 @@
 ---
-# Source: user-template/templates/namespace.yaml
+# Source: Workshop-instances/templates/namespace.yaml
 kind: Namespace
 apiVersion: v1
 metadata:
