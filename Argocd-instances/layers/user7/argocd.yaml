@@ -1,5 +1,5 @@
 ---
-# Source: user-template/templates/argocd.yaml
+# Source: Workshop-instances/templates/argocd.yaml
 apiVersion: argoproj.io/v1beta1
 kind: ArgoCD
 metadata:
