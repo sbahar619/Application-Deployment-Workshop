@@ -6,7 +6,7 @@ spec:
   generators:
   - git:
       repoURL: https://github.com/sbahar619/Application-Deployment-Workshop.git
-      revision: main
+      revision: project-66684-bursa
       directories:
       - path: Argocd-instances/layers/*
   template:
@@ -16,7 +16,7 @@ spec:
       project: default
       source:
         repoURL: https://github.com/sbahar619/Application-Deployment-Workshop.git
-        targetRevision: main
+        targetRevision: project-66684-bursa
         path: '{{path}}'
       destination:
         server: https://kubernetes.default.svc
