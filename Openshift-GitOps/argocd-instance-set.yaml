@@ -5,7 +5,7 @@ metadata:
 spec:
   generators:
   - git:
-      repoURL: https://github.com/rhilconsultants/app-helm-argocd.git
+      repoURL: https://github.com/sbahar619/Application-Deployment-Workshop.git
       revision: main
       directories:
       - path: Argocd-instances/layers/*
@@ -15,7 +15,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/rhilconsultants/app-helm-argocd.git
+        repoURL: https://github.com/sbahar619/Application-Deployment-Workshop.git
         targetRevision: main
         path: '{{path}}'
       destination:
