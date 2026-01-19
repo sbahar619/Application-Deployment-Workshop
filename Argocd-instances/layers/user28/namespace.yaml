@@ -1,0 +1,11 @@
+---
+# Source: Workshop-instances/templates/namespace.yaml
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: user28-application
+  labels:
+    argocd.argoproj.io/managed-by: user28-argocd
+spec:
+  finalizers:
+    - kubernetes
